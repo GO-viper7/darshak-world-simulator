@@ -19,6 +19,7 @@ var Player = function(env, x, y) {
 
     this.markAsVisible = function(){
         this.env.visible[this.getPosI()][this.getPosJ()] = 1;
+        
     }
 
     this.kill = function(keys) {

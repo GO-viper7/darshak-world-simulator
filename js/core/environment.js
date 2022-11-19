@@ -134,6 +134,8 @@ var Environment = function(i, j, width, height) {
             this.drawText(ctx, stench, wumpu[0]-1, wumpu[1], 14);
         }
 
+       
+
         for (let i = 0; i < this.golds.length; i++) {
 
             const gold = this.golds[i];
